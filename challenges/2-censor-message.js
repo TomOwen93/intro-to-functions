@@ -1,3 +1,9 @@
+/**
+ *
+ * @param {string} MESSAGE - input string contining words to be "checked"
+ * @param {Array} BAN_LIST - Array of words to check MESSAGE for and "censor"
+ * @returns {string} Our censored string
+ */
 function censorMessage(MESSAGE, BAN_LIST) {
   let RAW_WORDS = MESSAGE.split(" ");
   let SCRUBBED_WORDS = [];

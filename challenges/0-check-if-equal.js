@@ -1,3 +1,9 @@
+/**
+ *
+ * @param {number} num1 - the first input number
+ * @param {number} num2 - the second input number
+ * @returns  true or false depending on if num1 and num2 are equal
+ */
 function isEqual(num1, num2) {
   if (num1 == num2) {
     return true;
