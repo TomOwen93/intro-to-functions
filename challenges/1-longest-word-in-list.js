@@ -1,3 +1,8 @@
+/**
+ *
+ * @param {Array} words - an input list of words in array form, to see which is longest
+ * @returns {string} the longest word from the words Array
+ */
 function longestInList(words) {
   let longest = words[0];
 
@@ -9,7 +14,6 @@ function longestInList(words) {
 
   return longest;
 }
-
 
 /** Test Cases: */
 console.log(
